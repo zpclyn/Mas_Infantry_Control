@@ -16,553 +16,7 @@
 
 ### 底盘
 
-> │  EventRecorderStub.scvd
-> 
-> │  keilkill.bat
-> 
-> │  Project.uvguix.Administrator
-> 
-> │  Project.uvoptx
-> 
-> │  Project.uvprojx
-> 
-> │
-> 
-> ├─Algorithm
-> 
-> ├─CarBody
-> 
-> │      Mecanum.c
-> 
-> │      Mecanum.h
-> 
-> │      RefereeSystem.c
-> 
-> │      RefereeSystem.h
-> 
-> │      RefereeSystem_CRCTable.c
-> 
-> │      RefereeSystem_CRCTable.h
-> 
-> │      UI.c
-> 
-> │      UI.h
-> 
-> │      UI_Base.c
-> 
-> │      UI_Base.h
-> 
-> │      UI_Library.c
-> 
-> │      UI_Library.h
-> 
-> │      Ultra_CAP.c
-> 
-> │      Ultra_CAP.h
-> 
-> │
-> 
-> ├─Control
-> 
-> │      PID.c
-> 
-> │      PID.h
-> 
-> │
-> 
-> ├─DebugConfig
-> 
-> │      Target_1_STM32F407IGHx.dbgconf
-> 
-> │
-> 
-> ├─Function
-> 
-> │      CloseLoopControl.c
-> 
-> │      CloseLoopControl.h
-> 
-> │      CToC.c
-> 
-> │      CToC.h
-> 
-> │      LinkCheck.c
-> 
-> │      LinkCheck.h
-> 
-> │      Warming.c
-> 
-> │      Warming.h
-> 
-> │
-> 
-> ├─Hardware
-> 
-> │      Buzzer.c
-> 
-> │      Buzzer.h
-> 
-> │      LED.c
-> 
-> │      LED.h
-> 
-> │      Remote.c
-> 
-> │      Remote.h
-> 
-> │
-> 
-> ├─Library
-> 
-> │      misc.c
-> 
-> │      misc.h
-> 
-> │      stm32f4xx_adc.c
-> 
-> │      stm32f4xx_adc.h
-> 
-> │      stm32f4xx_can.c
-> 
-> │      stm32f4xx_can.h
-> 
-> │      stm32f4xx_cec.c
-> 
-> │      stm32f4xx_cec.h
-> 
-> │      stm32f4xx_crc.c
-> 
-> │      stm32f4xx_crc.h
-> 
-> │      stm32f4xx_cryp.c
-> 
-> │      stm32f4xx_cryp.h
-> 
-> │      stm32f4xx_cryp_aes.c
-> 
-> │      stm32f4xx_cryp_des.c
-> 
-> │      stm32f4xx_cryp_tdes.c
-> 
-> │      stm32f4xx_dac.c
-> 
-> │      stm32f4xx_dac.h
-> 
-> │      stm32f4xx_dbgmcu.c
-> 
-> │      stm32f4xx_dbgmcu.h
-> 
-> │      stm32f4xx_dcmi.c
-> 
-> │      stm32f4xx_dcmi.h
-> 
-> │      stm32f4xx_dfsdm.c
-> 
-> │      stm32f4xx_dfsdm.h
-> 
-> │      stm32f4xx_dma.c
-> 
-> │      stm32f4xx_dma.h
-> 
-> │      stm32f4xx_dma2d.c
-> 
-> │      stm32f4xx_dma2d.h
-> 
-> │      stm32f4xx_dsi.c
-> 
-> │      stm32f4xx_dsi.h
-> 
-> │      stm32f4xx_exti.c
-> 
-> │      stm32f4xx_exti.h
-> 
-> │      stm32f4xx_flash.c
-> 
-> │      stm32f4xx_flash.h
-> 
-> │      stm32f4xx_flash_ramfunc.c
-> 
-> │      stm32f4xx_flash_ramfunc.h
-> 
-> │      stm32f4xx_fmpi2c.c
-> 
-> │      stm32f4xx_fmpi2c.h
-> 
-> │      stm32f4xx_fsmc.c
-> 
-> │      stm32f4xx_fsmc.h
-> 
-> │      stm32f4xx_gpio.c
-> 
-> │      stm32f4xx_gpio.h
-> 
-> │      stm32f4xx_hash.c
-> 
-> │      stm32f4xx_hash.h
-> 
-> │      stm32f4xx_hash_md5.c
-> 
-> │      stm32f4xx_hash_sha1.c
-> 
-> │      stm32f4xx_i2c.c
-> 
-> │      stm32f4xx_i2c.h
-> 
-> │      stm32f4xx_iwdg.c
-> 
-> │      stm32f4xx_iwdg.h
-> 
-> │      stm32f4xx_lptim.c
-> 
-> │      stm32f4xx_lptim.h
-> 
-> │      stm32f4xx_ltdc.c
-> 
-> │      stm32f4xx_ltdc.h
-> 
-> │      stm32f4xx_pwr.c
-> 
-> │      stm32f4xx_pwr.h
-> 
-> │      stm32f4xx_qspi.c
-> 
-> │      stm32f4xx_qspi.h
-> 
-> │      stm32f4xx_rcc.c
-> 
-> │      stm32f4xx_rcc.h
-> 
-> │      stm32f4xx_rng.c
-> 
-> │      stm32f4xx_rng.h
-> 
-> │      stm32f4xx_rtc.c
-> 
-> │      stm32f4xx_rtc.h
-> 
-> │      stm32f4xx_sai.c
-> 
-> │      stm32f4xx_sai.h
-> 
-> │      stm32f4xx_sdio.c
-> 
-> │      stm32f4xx_sdio.h
-> 
-> │      stm32f4xx_spdifrx.c
-> 
-> │      stm32f4xx_spdifrx.h
-> 
-> │      stm32f4xx_spi.c
-> 
-> │      stm32f4xx_spi.h
-> 
-> │      stm32f4xx_syscfg.c
-> 
-> │      stm32f4xx_syscfg.h
-> 
-> │      stm32f4xx_tim.c
-> 
-> │      stm32f4xx_tim.h
-> 
-> │      stm32f4xx_usart.c
-> 
-> │      stm32f4xx_usart.h
-> 
-> │      stm32f4xx_wwdg.c
-> 
-> │      stm32f4xx_wwdg.h
-> 
-> │
-> 
-> ├─Listings
-> 
-> ├─Motor
-> 
-> │      GM6020.c
-> 
-> │      GM6020.h
-> 
-> │      M3508.c
-> 
-> │      M3508.h
-> 
-> │
-> 
-> ├─Objects
-> 
-> ├─Start
-> 
-> │      core_cm4.h
-> 
-> │      core_cmFunc.h
-> 
-> │      core_cmInstr.h
-> 
-> │      core_cmSimd.h
-> 
-> │      startup_stm32f401xx.s
-> 
-> │      startup_stm32f40xx.s
-> 
-> │      startup_stm32f40_41xxx.s
-> 
-> │      startup_stm32f410xx.s
-> 
-> │      startup_stm32f411xe.s
-> 
-> │      startup_stm32f412xg.s
-> 
-> │      startup_stm32f413_423xx.s
-> 
-> │      startup_stm32f427x.s
-> 
-> │      startup_stm32f427_437xx.s
-> 
-> │      startup_stm32f429_439xx.s
-> 
-> │      startup_stm32f446xx.s
-> 
-> │      startup_stm32f469_479xx.s
-> 
-> │      stm32f4xx.h
-> 
-> │      system_stm32f4xx.c
-> 
-> │      system_stm32f4xx.h
-> 
-> │
-> 
-> ├─System
-> 
-> │      CAN.c
-> 
-> │      CAN.h
-> 
-> │      Delay.c
-> 
-> │      Delay.h
-> 
-> │      TIM.c
-> 
-> │      TIM.h
-> 
-> │      UART.c
-> 
-> │      UART.h
-> 
-> │
-> 
-> └─User
-> 
->         main.c
-> 
->         Parameter.h
-> 
->         RM_C.h
-> 
->         stm32f4xx_conf.h
-> 
->         stm32f4xx_it.c
-> 
->         stm32f4xx_it.h
-
 ### 云台
-
-> │  EventRecorderStub.scvd
-> │  keilkill.bat
-> │  Project.uvguix.Administrator
-> │  Project.uvoptx
-> │  Project.uvprojx
-> │
-> ├─AHRS
-> │      AHRS.lib
-> │      ahrs_lib.h
-> │      AHRS_middleware.c
-> │      AHRS_middleware.h
-> │      arm_math.h
-> │      libahrs.a
-> │      struct_typedef.h
-> │      user_lib.c
-> │      user_lib.h
-> │
-> ├─Algorithm
-> ├─CarBody
-> │      Gimbal.c
-> │      Gimbal.h
-> │      Keyboard.c
-> │      Keyboard.h
-> │      RefereeSystem.c
-> │      RefereeSystem.h
-> │      RefereeSystem_CRCTable.h
-> │      Visual.c
-> │      Visual.h
-> │
-> ├─Control
-> │      PID.c
-> │      PID.h
-> │
-> ├─DebugConfig
-> │      Target_1_STM32F407IGHx.dbgconf
-> │
-> ├─Function
-> │      AttitudeAlgorithms.c
-> │      AttitudeAlgorithms.h
-> │      CloseLoopControl.c
-> │      CloseLoopControl.h
-> │      CToC.c
-> │      CToC.h
-> │      IMUTemperatureControl.c
-> │      IMUTemperatureControl.h
-> │      LinkCheck.c
-> │      LinkCheck.h
-> │      Warming.c
-> │      Warming.h
-> │
-> ├─Hardware
-> │      BMI088.c
-> │      BMI088.h
-> │      Buzzer.c
-> │      Buzzer.h
-> │      IST8310.c
-> │      IST8310.h
-> │      Laser.c
-> │      Laser.h
-> │      LED.c
-> │      LED.h
-> │      Remote.c
-> │      Remote.h
-> │
-> ├─Library
-> │      misc.c
-> │      misc.h
-> │      stm32f4xx_adc.c
-> │      stm32f4xx_adc.h
-> │      stm32f4xx_can.c
-> │      stm32f4xx_can.h
-> │      stm32f4xx_cec.c
-> │      stm32f4xx_cec.h
-> │      stm32f4xx_crc.c
-> │      stm32f4xx_crc.h
-> │      stm32f4xx_cryp.c
-> │      stm32f4xx_cryp.h
-> │      stm32f4xx_cryp_aes.c
-> │      stm32f4xx_cryp_des.c
-> │      stm32f4xx_cryp_tdes.c
-> │      stm32f4xx_dac.c
-> │      stm32f4xx_dac.h
-> │      stm32f4xx_dbgmcu.c
-> │      stm32f4xx_dbgmcu.h
-> │      stm32f4xx_dcmi.c
-> │      stm32f4xx_dcmi.h
-> │      stm32f4xx_dfsdm.c
-> │      stm32f4xx_dfsdm.h
-> │      stm32f4xx_dma.c
-> │      stm32f4xx_dma.h
-> │      stm32f4xx_dma2d.c
-> │      stm32f4xx_dma2d.h
-> │      stm32f4xx_dsi.c
-> │      stm32f4xx_dsi.h
-> │      stm32f4xx_exti.c
-> │      stm32f4xx_exti.h
-> │      stm32f4xx_flash.c
-> │      stm32f4xx_flash.h
-> │      stm32f4xx_flash_ramfunc.c
-> │      stm32f4xx_flash_ramfunc.h
-> │      stm32f4xx_fmpi2c.c
-> │      stm32f4xx_fmpi2c.h
-> │      stm32f4xx_fsmc.c
-> │      stm32f4xx_fsmc.h
-> │      stm32f4xx_gpio.c
-> │      stm32f4xx_gpio.h
-> │      stm32f4xx_hash.c
-> │      stm32f4xx_hash.h
-> │      stm32f4xx_hash_md5.c
-> │      stm32f4xx_hash_sha1.c
-> │      stm32f4xx_i2c.c
-> │      stm32f4xx_i2c.h
-> │      stm32f4xx_iwdg.c
-> │      stm32f4xx_iwdg.h
-> │      stm32f4xx_lptim.c
-> │      stm32f4xx_lptim.h
-> │      stm32f4xx_ltdc.c
-> │      stm32f4xx_ltdc.h
-> │      stm32f4xx_pwr.c
-> │      stm32f4xx_pwr.h
-> │      stm32f4xx_qspi.c
-> │      stm32f4xx_qspi.h
-> │      stm32f4xx_rcc.c
-> │      stm32f4xx_rcc.h
-> │      stm32f4xx_rng.c
-> │      stm32f4xx_rng.h
-> │      stm32f4xx_rtc.c
-> │      stm32f4xx_rtc.h
-> │      stm32f4xx_sai.c
-> │      stm32f4xx_sai.h
-> │      stm32f4xx_sdio.c
-> │      stm32f4xx_sdio.h
-> │      stm32f4xx_spdifrx.c
-> │      stm32f4xx_spdifrx.h
-> │      stm32f4xx_spi.c
-> │      stm32f4xx_spi.h
-> │      stm32f4xx_syscfg.c
-> │      stm32f4xx_syscfg.h
-> │      stm32f4xx_tim.c
-> │      stm32f4xx_tim.h
-> │      stm32f4xx_usart.c
-> │      stm32f4xx_usart.h
-> │      stm32f4xx_wwdg.c
-> │      stm32f4xx_wwdg.h
-> │
-> ├─Listings
-> ├─Motor
-> │      GM6020.c
-> │      GM6020.h
-> │      M2006.c
-> │      M2006.h
-> │      M3508.c
-> │      M3508.h
-> │
-> ├─Objects
-> ├─Start
-> │      core_cm4.h
-> │      core_cmFunc.h
-> │      core_cmInstr.h
-> │      core_cmSimd.h
-> │      startup_stm32f401xx.s
-> │      startup_stm32f40xx.s
-> │      startup_stm32f40_41xxx.s
-> │      startup_stm32f410xx.s
-> │      startup_stm32f411xe.s
-> │      startup_stm32f412xg.s
-> │      startup_stm32f413_423xx.s
-> │      startup_stm32f427x.s
-> │      startup_stm32f427_437xx.s
-> │      startup_stm32f429_439xx.s
-> │      startup_stm32f446xx.s
-> │      startup_stm32f469_479xx.s
-> │      stm32f4xx.h
-> │      system_stm32f4xx.c
-> │      system_stm32f4xx.h
-> │
-> ├─System
-> │      CAN.c
-> │      CAN.h
-> │      Delay.c
-> │      Delay.h
-> │      MyI2C.c
-> │      MyI2C.h
-> │      TIM.c
-> │      TIM.h
-> │      UART.c
-> │      UART.h
-> │
-> └─User
->         main.c
->         Parameter.h
->         RM_C.h
->         stm32f4xx_conf.h
->         stm32f4xx_it.c
->         stm32f4xx_it.h
 
 ## 四、功能说明
 
@@ -620,6 +74,7 @@ void Mecanum_PowerMoveControl(void);//麦轮功率控制
 ![底盘麦轮解算简图.png](https://github.com/zpclyn/Mas_Infantry_Control/blob/main/IMAGE/%E5%BA%95%E7%9B%98%E9%BA%A6%E8%BD%AE%E8%A7%A3%E7%AE%97%E7%AE%80%E5%9B%BE.png?raw=true)
 
 稍微有一点反直觉，但是无妨，在此坐标系下，麦克纳姆轮的逆运动解算公式如下
+
 $$
 \begin{align}
 v_{左前轮}&=-v_{x}-v_{y}-w(r_{x}+r_{y})\\
@@ -628,15 +83,20 @@ v_{左后轮}&=-v_{x}+v_{y}-w(r_{x}+r_{y})\\
 v_{右后轮}&=v_{x}+v_{y}-w(r_{x}+r_{y})
 \end{align}
 $$
+
 此部分代码在`void Mecanum_InverseMotionControl(float v_x,float v_y,float w);`中实现，如果考虑云台和底盘的相对角度，云台坐标系和底盘坐标系之间存在坐标变换（显然，图传链路和遥控器控制均以云台坐标系为基准）。
 
 ![底盘云台向量变换简图.png](https://github.com/zpclyn/Mas_Infantry_Control/blob/main/IMAGE/%E5%BA%95%E7%9B%98%E4%BA%91%E5%8F%B0%E5%90%91%E9%87%8F%E5%8F%98%E6%8D%A2%E7%AE%80%E5%9B%BE.png?raw=true)
 
 坐标变换公式为
+
 $$
-v_{x底盘}=v_{x云台}cos\theta-v_{y云台}sin\theta\\
-v_{y底盘}=v_{x云台}sin\theta+v_{y云台}cos\theta\\
+\begin{align}
+v_{x底盘}&=v_{x云台}cos\theta-v_{y云台}sin\theta\\
+v_{y底盘}&=v_{x云台}sin\theta+v_{y云台}cos\theta
+\end{align}
 $$
+
 此部分代码在`void Mecanum_PowerMoveControl(void);`中实现，具体代码段为
 
 ```C
@@ -714,7 +174,7 @@ PVI功率模型主要分为**三轴速度获取**、**小陀螺处理**、**功�
 	vy=vx_*sinf(Mecanum_YawTheta)+vy_*cosf(Mecanum_YawTheta);//根据底盘云台相对角度修正xy轴速度
 ```
 
-此处代码首先通过遥控器获取三轴速度（以云台坐标系为基准），然后对$v_x$和$v_{y}$进行归一化处理，方便后方速度增益的一致性，然后进行坐标变换获取底盘坐标系的$v_x$和$v_{y}$。
+此处代码首先通过遥控器获取三轴速度（以云台坐标系为基准），然后对 $v_x$ 和 $v_{y}$ 进行归一化处理，方便后方速度增益的一致性，然后进行坐标变换获取底盘坐标系的 $v_x$ 和 $v_{y}$ 。
 
 #### 4.2 小陀螺处理
 
@@ -788,14 +248,16 @@ PVI功率模型主要分为**三轴速度获取**、**小陀螺处理**、**功�
 ```
 
 缓冲能量约束为第一级约束，与其说是约束，不如说是获取，在此处通过如下公式获取最初始的功率上限值。
+
 $$
 PowerLimit=\dfrac{Buffer}{60-UseBuffer}\times PowerRef
 $$
-对功率增益系数$K_{buffer}=\dfrac{Buffer}{60-UseBuffer}$作图，可以得到
+
+对功率增益系数 $K_{buffer}=\dfrac{Buffer}{60-UseBuffer}$ 作图，可以得到
 
 ![缓冲能量功率增益.png](https://github.com/zpclyn/Mas_Infantry_Control/blob/main/IMAGE/%E7%BC%93%E5%86%B2%E8%83%BD%E9%87%8F%E5%8A%9F%E7%8E%87%E5%A2%9E%E7%9B%8A.png?raw=true)
 
-此公式实现了缓冲能量越多，功率越大，在$Buffer=60-UseBuffer$时，功率增益为1，在此处稳定下来。同时缓冲能量利用越多，功率越大，充分利用缓冲能量提高功率。同时在飞坡后也有很好的效果，会有更高的功率增益。
+此公式实现了缓冲能量越多，功率越大，在 $Buffer=60-UseBuffer$ 时，功率增益为1，在此处稳定下来。同时缓冲能量利用越多，功率越大，充分利用缓冲能量提高功率。同时在飞坡后也有很好的效果，会有更高的功率增益。
 
 ##### 4.3.2 运动状态约束
 
@@ -903,41 +365,47 @@ $$
 ![电流环.png](https://github.com/zpclyn/Mas_Infantry_Control/blob/main/IMAGE/%E7%94%B5%E6%B5%81%E7%8E%AF.png?raw=true)
 
 转换成数学表达式为
+
 $$
-I_{Limit}=
-\begin{cases}
-\dfrac{1}{2}I_{Buffer},&Buffer<5\\
-\dfrac{Buffer+B-10}{2B-10}\times I_{Buffer},&5\leqslant Buffer\leqslant B\\
-I_{Buffer}+I_{Power},&B<Buffer,P\leqslant 0.9P_{Limit}\\
-I_{Buffer}+\dfrac{P_{Limit}-P}{P_{Limit}-0.9P}\times I_{Power},&B<Buffer,0.9P_{Limit}<P\leqslant P_{Limit}\\
-I_{Buffer},&B<Buffer,P_{Limit}<P\
+I_{Limit}=\begin{cases}
+\dfrac{1}{2}I_{Buffer},&Buffer < 5\\
+\dfrac{Buffer+B-10}{2B-10}\times I_{Buffer},&5 \leqslant Buffer \leqslant B\\
+I_{Buffer}+I_{Power},&B < Buffer,P \leqslant 0.9P_{Limit}\\
+I_{Buffer}+\dfrac{P_{Limit}-P}{P_{Limit}-0.9P}\times I_{Power},&B < Buffer,0.9P_{Limit} < P \leqslant P_{Limit}\\
+I_{Buffer},&B < Buffer,P_{Limit} < P
 \end{cases}\\
+\\\
 \text{其中},I_{Buffer}=\dfrac{512}{15}P_{Limit},I_{Power}=\dfrac{512\times 5}{15}P_{Limit}
 $$
+
 而其中电流与功率的对应比例关系为
+
 $$
 P=UI_{实际}=24V\times(\dfrac{I}{16384}\times20A)=\dfrac{15}{512}\times I
 $$
+
 故电流限幅可用功率增益系数等效表示。
 
 电流功率增益系数表达式为
+
 $$
 K_I=
 \begin{cases}
-\dfrac{1}{2},&Buffer<5\\
-\dfrac{Buffer+B-10}{2B-10},&5\leqslant Buffer\leqslant B\\
-6,&B<Buffer,P\leqslant 0.9P_{Limit}\\
-1+5\times\dfrac{P_{Limit}-P}{P_{Limit}-0.9P},&B<Buffer,0.9P_{Limit}<P\leqslant P_{Limit}\\
-1,&B<Buffer,P_{Limit}<P\
-\end{cases}\\
+\dfrac{1}{2},&Buffer < 5\\
+\dfrac{Buffer+B-10}{2B-10},&5 \leqslant Buffer \leqslant B\\
+6,&B < Buffer,P \leqslant 0.9P_{Limit}\\
+1+5\times\dfrac{P_{Limit}-P}{P_{Limit}-0.9P},&B < Buffer,0.9P_{Limit} < P \leqslant P_{Limit}\\
+1,&B < Buffer,P_{Limit} < P
+\end{cases}
 $$
+
 由此可做出两张图像来更直观的表现电流功率增益系数
 
-图1：$Buffer<=B时,K_I-Buffer曲线$
+图1： $Buffer<=B时,K_I-Buffer曲线$ 
 
 ![电流功率增益系数1.png](https://github.com/zpclyn/Mas_Infantry_Control/blob/main/IMAGE/%E7%94%B5%E6%B5%81%E5%8A%9F%E7%8E%87%E5%A2%9E%E7%9B%8A%E7%B3%BB%E6%95%B01.png?raw=true)
 
-图2：$Buffer>B时,K_I-P曲线$（假定$P_{Limit}=1$）
+图2： $Buffer>B时,K_I-P曲线$ （假定 $P_{Limit}=1$ ）
 
 ![电流功率增益系数2.png](https://github.com/zpclyn/Mas_Infantry_Control/blob/main/IMAGE/%E7%94%B5%E6%B5%81%E5%8A%9F%E7%8E%87%E5%A2%9E%E7%9B%8A%E7%B3%BB%E6%95%B02.png?raw=true)
 
