@@ -16,7 +16,7 @@
 
 ## 二、接线图
 
-![接线图.png](https://github.com/zpclyn/Mas_Infantry_Control/blob/main/IMAGE/%E6%8E%A5%E7%BA%BF%E5%9B%BE.png?raw=true)
+![接线图.png](https://github.com/zpclyn/Mas_Infantry_Control/blob/main/IMAGE/%E6%8E%A5%E7%BA%BF%E5%9B%BE.png)
 
 ## 三、Keil文件说明
 
@@ -377,7 +377,7 @@ I_{Limit}=\begin{cases}
 \dfrac{1}{2}I_{Buffer},&Buffer < 5\\
 \dfrac{Buffer+B-10}{2B-10}\times I_{Buffer},&5 \leqslant Buffer \leqslant B\\
 I_{Buffer}+I_{Power},&B < Buffer,P \leqslant 0.9P_{Limit}\\
-I_{Buffer}+\dfrac{P_{Limit}-P}{P_{Limit}-0.9P}\times I_{Power},&B < Buffer,0.9P_{Limit} < P \leqslant P_{Limit}\\
+I_{Buffer}+\dfrac{P_{Limit}-P}{P_{Limit}-0.9P_{Limit}}\times I_{Power},&B < Buffer,0.9P_{Limit} < P \leqslant P_{Limit}\\
 I_{Buffer},&B < Buffer,P_{Limit} < P
 \end{cases}\\
 \\\
