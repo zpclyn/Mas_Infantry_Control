@@ -6,7 +6,9 @@
 
 * 第一次修改 2024.8.19 修改**写在最后**
 
-* 第二次修改 2024.10.12 修改**写在最后**的所有权
+* 第二次修改 2024.10.12
+
+* 第三次修改 2024.11.29 修改接线图和电流环公式
 
 ## 一、概述
 
@@ -398,7 +400,7 @@ K_I=
 \dfrac{1}{2},&Buffer < 5\\
 \dfrac{Buffer+B-10}{2B-10},&5 \leqslant Buffer \leqslant B\\
 6,&B < Buffer,P \leqslant 0.9P_{Limit}\\
-1+5\times\dfrac{P_{Limit}-P}{P_{Limit}-0.9P},&B < Buffer,0.9P_{Limit} < P \leqslant P_{Limit}\\
+1+5\times\dfrac{P_{Limit}-P}{P_{Limit}-0.9P_{Limit}},&B < Buffer,0.9P_{Limit} < P \leqslant P_{Limit}\\
 1,&B < Buffer,P_{Limit} < P
 \end{cases}
 $$
@@ -475,6 +477,6 @@ $$
 
 > PS：
 >
-> **本开源最终解释权和所有权为个人所有，不得用于任何商用行为，也不得其他人用于河北工业大学山海Mas参加RoboMaster比赛。**
+> **本开源最终解释权和所有权为河北工业大学山海机甲所有，不得用于任何商用行为。**
 >
 > 欢迎交流，如有任何问题，请联系QQ：**zpclyn 2297651490**。
